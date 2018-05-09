@@ -1,0 +1,50 @@
+.personal_top{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.personal_header{
+    margin: 0 auto;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.personal_top img{
+    width: 100%;
+    height:100%;
+}
+
+.tex{
+    font-size:0.9rem;
+    margin-top:0.75rem;
+}
+
+/*空隙*/
+.lacunate{
+    width: 100%;
+    height: 0.75rem;
+    background: #f3f5f7;
+    border-top:1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.personal_item{
+    height: 2.5rem;
+    line-height:2.5rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.personal_item span{
+    margin-left: 1rem;
+}
+
+.personal_login{
+    height: 2.5rem;
+    line-height: 2.5rem;
+    color:#0099ff;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+}

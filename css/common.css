@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #000; text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.head_main{
+    position: fixed;
+    height: 2.8rem;
+    background-color: white;
+    left: 0;
+    top: 0;
+    right: 0;
+    /* 堆叠顺序 最小为-1 */
+    z-index: 10;
+    border-bottom: 0.5px solid #d9dde1;
+}
+
+.head_main img{
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+    height: 2rem;
+    width: auto;
+}
+
+.right{
+    /* 向右浮动 */
+    float: right;
+}
+
+.head_main .right img{
+    margin-right: 1.5rem;
+    /* 圆角 */
+    border-radius: 1.5rem;
+}
+
+/* 留出头部导航 */
+.divide{
+    height: 2.8rem;
+}
+
+/* 底部 */
+.nav_box{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2.4rem;
+    background-color: #fff;
+    z-index: 9;
+    /* 阴影  水平阴影位置 垂直阴影位置 模糊距离 阴影尺寸 阴影颜色*/
+    box-shadow: -2px 0px 6px 0px rgba(0,0,0,0.2);
+}
+
+.nav_box .nav{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    font-size: 0.5rem;
+    color: #798F9C;
+    margin-top: 0.3rem;
+}
+
+.nav_box .nav img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
